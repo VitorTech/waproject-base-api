@@ -28,7 +28,7 @@ yarn install # ou npm install
 
 node ./init.js
 
-[sudo] docker-componse up
+[sudo] docker-compose up
 # levantará o docker com o banco de dados e a aplicação.
 # Ele aplicará as migrations/seeds do banco e depois dará watch nos arquivos
 # e iniciará o node com a api
