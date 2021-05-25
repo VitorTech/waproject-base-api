@@ -23,7 +23,7 @@ Utilize o VSCode, já está configurado com sugestão de extensões e debug.
 ```bash
 # install docker https://docs.docker.com/install
 
-git clone git@bitbucket.org:waprojectbase/waproject-base-api.git
+git clone https://github.com/VitorTech/waproject-base-api.git
 yarn install # ou npm install
 
 node ./init.js
