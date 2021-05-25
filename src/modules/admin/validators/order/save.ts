@@ -28,8 +28,6 @@ export class SaveValidator implements IOrder {
   public quantity: number;
 
   @IsNotEmpty()
-  
-  @MaxLength(150)
   @ApiProperty({ required: true, type: 'number'})
   public value: number;
 
